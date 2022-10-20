@@ -1,4 +1,4 @@
-# React JS + Vite
+# react-vite-eslint-prettier-husky-template
 
 > Template for React JS projects + Vite
 
@@ -6,14 +6,14 @@
 
 ### Github template
 
-[Create a repo from this template on GitHub.](https://github.com/antoniogiroz/template-vite-react-js/generate)
+[Create a repo from this template on GitHub.](https://github.com/AnwarHossainSR/react-vite-eslint-prettier-husky-template.git/generate)
 
 ### Clone to local
 
 ```bash
-npx degit antoniogiroz/template-vite-react-js my-app
+git clone https://github.com/AnwarHossainSR/react-vite-eslint-prettier-husky-template.git
 cd my-app
-pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
+yarn install # If you don't have yarn installed, run: npm install -g yarn
 ```
 
 ## Usage
@@ -21,13 +21,13 @@ pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
 ### Development
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 ### Build
 
 ```bash
-pnpm build
+yarn build
 ```
 
 And you will see the generated file in `dist` that ready to be served.
@@ -35,6 +35,5 @@ And you will see the generated file in `dist` that ready to be served.
 ### Serve dist
 
 ```bash
-pnpm serve
+yarn serve
 ```
-# react-vite-eslint-prettier-husky-template

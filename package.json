@@ -1,0 +1,40 @@
+{
+  "name": "template-vite-react-js",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Anwar Hossain",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --write .",
+    "lint": "eslint --fix --ext .js,jsx --quiet",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,md,html,css,scss}": "yarn format",
+    "*.{js,jsx}": "cross-env NODE_ENV=production yarn lint"
+  }
+}
