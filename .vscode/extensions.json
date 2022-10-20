@@ -4,6 +4,6 @@
     "esbenp.prettier-vscode",
     "EditorConfig.EditorConfig",
     "mikestead.dotenv",
-    "antfu.vite"
+    //"antfu.vite"
   ]
 }
