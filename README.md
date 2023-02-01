@@ -196,7 +196,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@anwarsr](https://twitter.com/anwarsr) - email@example.com
+Your Name - [@anwarsr](https://twitter.com/anwarsr) - anwarmahedisr@gmail.com
 
 Project Link: [https://github.com/AnwarHossainSR/react-vite-eslint-prettier-husky-template.git](https://github.com/AnwarHossainSR/react-vite-eslint-prettier-husky-template.git)
 
