@@ -4,3 +4,6 @@ dist
 dist-ssr
 *.local
 yarn.lock
+.env
+.env.local
+.env.production
