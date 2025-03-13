@@ -35,7 +35,7 @@ react-boilerplate/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/react-boilerplate.git
+git clone https://github.com/AnwarHossainSR/react-boilerplate.git
 cd react-boilerplate
 ```
 
